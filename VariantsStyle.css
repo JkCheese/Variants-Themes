@@ -1,0 +1,608 @@
+.user-popup-component, .action-buttons-user-actions-component, .user-popup-separator {
+  background-color: rgb(30, 30, 30);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-light.ui_v5-button-x-small {
+  color: rgb(200, 200, 200);
+  background-color: rgb(50, 50, 50);
+}
+.ui_modal-body.ui_modal-rounded-lg.ui_modal-light {
+  color: rgb(200, 200, 200);
+  background-color: rgb(30, 30, 30);
+}
+
+.ui_v5-switch-label {
+  border-color: rgba(0,0,0,0);
+}
+
+.ui_v5-switch-checkbox:checked + .ui_v5-switch-label {
+  border-color: rgb(135,193,232);
+  background-color: rgb(135,193,232);
+}
+
+.ui_v5-switch-button {
+  background-color: rgb(50, 50, 50);
+  border-color: rgb(50, 50, 50);
+}
+
+.ui_v5-switch-checkbox:checked + label .ui_v5-switch-button {
+  background-color: rgb(75,125,160);
+  border-color: rgb(75,125,160);
+}
+
+.modal-header-rounded-header {
+  background-color: rgb(100,150,180);
+}
+
+.modal-header-rounded-header::before {
+  background-color: rgb(135, 193, 232);
+}
+
+.settings-modal-tab.settings-modal-active {
+  color: rgb(135, 193, 232);
+  border-color: rgb(135, 193, 232);
+}
+
+.settings-modal-tab:hover {
+  color: rgb(75,125,160);
+  border-color: rgb(75,125,160);
+}
+
+.vue-slider-process {
+  background-color: rgb(135, 193, 232);
+}
+
+.vue-slider-dot-handle {
+  background-color: rgb(135, 193, 232);
+  border-color: rgb(135, 193, 232);
+}
+
+.vue-slider-mark-step.vue-slider-mark-step-active {
+  box-shadow: 0 0 0 2.5px rgb(135, 193, 232);
+  border-color: rgb(135, 193, 232);
+}
+
+.vue-slider-mark-label {
+  color: rgb(75,125,160);
+}
+
+.vue-slider-mark-label.vue-slider-mark-label-active {
+  color: rgb(135, 193, 232);
+}
+
+.settings-modal-flexrow[for]:not(.settings-modal-flexrow.settings-modal-selected) {
+  color: rgb(200, 200, 200);
+  background-color: rgb(50, 50, 50);
+}
+
+.settings-modal-flexrow[for]:not(.settings-modal-flexrow.settings-modal-selected):hover {
+  color: rgb(75,125,160);
+  background-color: rgb(75, 75, 75);
+}
+
+.settings-modal-flexrow.settings-modal-selected {
+  color: rgb(135, 193, 232);
+  background-color: rgb(50, 50, 50);
+}
+
+.settings-modal-flexrow.settings-modal-selected::before {
+  border-color: rgb(135, 193, 232);
+}
+
+.icon-font-chess.arrow-up.vote-container-icon {
+  color: rgb(57, 189, 110);
+}
+
+.icon-font-chess.arrow-down.vote-container-icon {
+  color: rgb(204,70,59);
+}
+
+.status-bar-icon.icon-font-chess.chess-pawn-rook.icon-font-primary, .game-details-icon.icon-font-chess.chess-pawn-rook.icon-font-primary, .icon-bar-icon-medium.icon-font-chess.chess-pawn-rook.icon-font-neutral, .game-details-icon.icon-font-chess.user-question.icon-font-primary, .game-details-icon.icon-font-chess.chat.icon-font-primary, .listed-game-icon.icon-font-chess.users-alt.icon-font-primary, .icon-font-chess.ui_v5-input-group-icon.ui_v5-input-group-right.chess-board-search, .queue-icon-small.icon-font-chess.users.icon-font-primary, .game-details-icon.icon-font-chess.user-info.icon-font-primary, .listed-subvariant-icon.listed-subvariant-iconBig.icon-font-chess.user-search.icon-font-primary, .listed-subvariant-icon.icon-font-chess.users-alt.icon-font-primary {
+  color: rgb(135, 193, 232);
+}
+
+.game-details-icon.icon-font-chess.kingofthehill.icon-font-primary {
+  color: rgb(255, 140, 4)
+}
+
+.game-details-icon.icon-font-chess.atomic.icon-font-primary, .game-details-icon.icon-font-chess.twitter.icon-font-primary {
+  color: rgb(255, 200, 0);
+}
+
+.icon-bar-icon-medium.icon-font-chess.sound-off.icon-font-neutral {
+  color: rgb(229, 57, 53);
+}
+
+.leaderboards-leaderboards-myStanding, .leaderboards-leaderboards-types, .panel-watch-item-section, .archive-results-game-container, .panel-archive-header {
+  border: 0
+}
+
+.leaderboards-leaderboard-type.leaderboards-active {
+  box-shadow: inset 0 0 0px 2px rgb(135,193,232);
+}
+
+.leaderboards-leaderboard-type:hover {
+  box-shadow: inset 0 0 0px 2px rgb(100,150,180);
+}
+
+.sidebar-component {
+  background-image: linear-gradient(180deg, rgb(20, 20, 20),rgb(70, 70, 70));
+  box-shadow: inset 0 0 100px 50px rgba(20, 20, 20, 1);
+}
+
+.icon-bar-top-icons-expanded {
+  background-image: linear-gradient(180deg, rgb(20, 20, 20),rgb(75, 75, 75));
+  box-shadow: inset 0 0 20px 5px rgba(20, 20, 20, 1);
+}
+
+.clock-component.playerbox-clock[style*="rgb(191, 59, 68)"] {
+  background-image: linear-gradient(135deg, rgb(191, 59, 67),rgb(100, 30, 40));
+  box-shadow: inset 0 0 10px 0.1px rgba(20, 20, 20, 1);
+}
+
+.clock-component.playerbox-clock[style*="rgb(65, 132, 191)"] {
+  background-image: linear-gradient(135deg, rgb(65, 132, 191),rgb(35, 77, 112));
+  box-shadow: inset 0 0 10px 0.1px rgba(20, 20, 20, 1);
+}
+
+.clock-component.playerbox-clock[style*="rgb(191, 148, 38)"] {
+  background-image: linear-gradient(135deg, rgb(191, 148, 38),rgb(100, 80, 20));
+  box-shadow: inset 0 0 10px 0.1px rgba(20, 20, 20, 1);
+}
+
+.clock-component.playerbox-clock[style*="rgb(78, 145, 97)"] {
+  background-image: linear-gradient(135deg, rgb(78, 145, 97),rgb(30, 80, 50));
+  box-shadow: inset 0 0 10px 0.1px rgba(20, 20, 20, 1);
+}
+
+.clock-component.playerbox-clock[style*="rgb(202, 202, 202)"] {
+  background-image: linear-gradient(135deg, rgb(202, 202, 202),rgb(100, 100, 100));
+  box-shadow: inset 0 0 10px 0.1px rgba(20, 20, 20, 1);
+}
+
+.clock-component.playerbox-clock[style*="rgb(91, 88, 87)"] {
+  background-image: linear-gradient(135deg, rgb(91, 88, 87),rgb(25, 25, 25));
+  box-shadow: inset 0 0 10px 0.1px rgba(20, 20, 20, 1);
+}
+
+.panel-watch-item-truncate-180[style*="rgb(191, 59, 68)"] {
+  filter: drop-shadow(0px 0px 4px rgba(255, 90, 91, 1));
+}
+
+.panel-watch-item-truncate-180[style*="rgb(65, 132, 191)"] {
+  filter: drop-shadow(1px 1px 5px rgba(42, 107, 230, 1));
+}
+
+.panel-watch-item-truncate-180[style*="rgb(191, 148, 38)"] {
+  filter: drop-shadow(0px 0px 4px rgba(173, 150, 57, 1));
+}
+
+.panel-watch-item-truncate-180[style*="rgb(78, 145, 97)"] {
+  filter: drop-shadow(0px 0px 4px rgba(73, 156, 96, 1));
+}
+
+.panel-watch-item-truncate-180[style*="rgb(202, 202, 202)"] {
+  filter: drop-shadow(0px 0px 4px rgba(200, 200, 200, 1));
+}
+
+.panel-watch-item-truncate-180[style*="rgb(91, 88, 87)"] {
+  filter: drop-shadow(0px 0px 4px rgba(100, 100, 100, 1));
+}
+
+.panel-watch-item-num-spectators {
+  color: rgb(135,193,232);
+  background-color: rgba(135,193,232,0);
+}
+
+.panel-watch-item-icon-eye.icon-font-chess.eye.icon-font-mode-active {
+  color: rgb(135,193,232);
+}
+
+.chat-username-f[style*="rgb(191, 59, 68)"] {
+  filter: drop-shadow(0px 0px 4px rgba(255, 90, 91, 1));
+}
+
+.chat-username-f[style*="rgb(65, 132, 191)"] {
+  filter: drop-shadow(1px 1px 5px rgba(42, 107, 230, 1));
+}
+
+.chat-username-f[style*="rgb(191, 148, 38);"] {
+  filter: drop-shadow(0px 0px 4px rgba(173, 150, 57, 1));
+}
+
+.chat-username-f[style*="rgb(78, 145, 97)"] {
+  filter: drop-shadow(0px 0px 4px rgba(73, 156, 96, 1));
+}
+
+.chat-username-f[style*="rgb(202, 202, 202)"] {
+  filter: drop-shadow(0px 0px 4px rgba(200, 200, 200, 1));
+}
+
+.chat-username-f[style*="rgb(91, 88, 87)"] {
+  filter: drop-shadow(0px 0px 4px rgba(100, 100, 100, 1));
+}
+
+.chat-username-f {
+  filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 1));
+}
+
+.chat-user-name {
+  filter: drop-shadow(0px 0px 4px rgba(125, 125, 125, 1));
+}
+
+.chat-chat-content-f {
+  filter: drop-shadow(0px 0px 4px rgba(200, 200, 200, 1));
+}
+
+.BaseArrow-circle { 
+  border-radius: 30%;
+}
+
+.BaseArrow-circle[style*="rgb(191, 59, 67)"] {
+  border-color: #ff8f8f;
+}
+
+.BaseArrow-circle[style*="rgb(65, 133, 191)"] {
+  border-color: #9bb9f3;
+}
+
+.BaseArrow-circle[style*="rgb(192, 149, 38)"] {
+  border-color: #ffd52b;
+}
+
+.BaseArrow-circle[style*="rgb(78, 145, 97)"] {
+  border-color: #81e69c;
+}
+
+.BaseArrow-circle[style*="rgb(140, 138, 136)"] {
+  border-color: #d4d4d4;
+}
+
+.BaseArrow-circle[style*="rgb(248, 248, 248)"] {
+  border-color: #ffffff;
+}
+
+.BaseArrow-circle[style*="rgb(78, 76, 75)"] {
+  border-color: #7d7d7d;
+}
+
+.BaseArrow-circle[style*="rgba(255, 170, 0, 0.8)"] {
+  border-color: #d1900d;
+}
+
+.BaseArrow-arrow[style*="rgb(191, 59, 67)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #ff8f8f;
+  box-shadow: inset 0 0 3px 1px rgba(189, 90, 91, 1), 0 0 6px 3px rgba(189, 90, 91, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #ff8f8f;
+  filter: drop-shadow(1px 1px 5px rgba(189, 90, 91, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgb(65, 133, 191)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #9bb9f3;
+  box-shadow: inset 0 0 3px 1px rgba(42, 107, 230, 1), 0 0 6px 3px rgba(42, 107, 230, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #9bb9f3; 
+  filter: drop-shadow(1px 1px 5px rgba(42, 107, 230, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgb(192, 149, 38)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #ffd52b;
+  box-shadow: inset 0 0 3px 1px rgba(173, 150, 57, 1), 0 0 6px 3px rgba(173, 150, 57, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #ffd52b; 
+  filter: drop-shadow(1px 1px 5px rgba(173, 150, 57, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgb(78, 145, 97)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #81e69c;
+  box-shadow: inset 0 0 3px 1px rgba(73, 156, 96, 1), 0 0 6px 3px rgba(73, 156, 96, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #81e69c; 
+  filter: drop-shadow(1px 1px 5px rgba(73, 156, 96, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgb(140, 138, 136)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #d4d4d4;
+  box-shadow: inset 0 0 3px 1px rgba(150, 150, 150, 1), 0 0 6px 3px rgba(150, 150, 150, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #d4d4d4;
+  filter: drop-shadow(1px 1px 5px rgba(150, 150, 150, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgb(248, 248, 248)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 3px 1px rgba(175, 175, 175, 1), 0 0 6px 3px rgba(175, 175, 175, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #ffffff;
+  filter: drop-shadow( 1px 1px 5px rgba(175, 175, 175, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgb(78, 76, 75)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #7d7d7d;
+  box-shadow: inset 0 0 3px 1px rgba(75, 75, 75, 1), 0 0 6px 3px rgba(75, 75, 75, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #7d7d7d;
+  filter: drop-shadow( 1px 1px 5px rgba(75, 75, 75, 1));
+}
+}
+
+.BaseArrow-arrow[style*="rgba(255, 170, 0, 0.8)"] {
+
+.BaseArrow-arrowStem {
+  background-color: #d1900d;
+  box-shadow: inset 0 0 3px 1px rgba(140, 97, 11, 1), 0 0 6px 3px rgba(140, 97, 11, 1);
+}
+
+.BaseArrow-arrowHead {
+  border-top-color: #d1900d;
+  filter: drop-shadow( 1px 1px 5px rgba(140, 97, 11, 1));
+}
+}
+
+.piece.BasePiece-component[data-color="0"]:not([data-bounty],[data-piece="X"]),
+.piece.square.SparesList-piece[data-color="0"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(189, 90, 91, 1));
+}
+
+.piece.BasePiece-component[data-color="1"]:not([data-bounty],[data-piece="X"]),
+.piece.square.SparesList-piece[data-color="1"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(42, 107, 230, 1));
+}
+
+.piece.BasePiece-component[data-color="2"]:not([data-bounty],[data-piece="X"]),
+.piece.square.SparesList-piece[data-color="2"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(173, 150, 57, 1));
+}
+
+.piece.BasePiece-component[data-color="3"]:not([data-bounty],[data-piece="X"]),
+.piece.square.SparesList-piece[data-color="3"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(73, 156, 96, 1));
+}
+
+.piece.square.SparesList-piece[data-color="4"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(150, 150, 150, 1));
+}
+
+.piece.BasePiece-component[data-color="5"]:not([data-bounty],[data-piece="X"]),
+.piece.square.SparesList-piece[data-color="5"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(175, 175, 175, 1));
+}
+
+.piece.BasePiece-component[data-color="6"]:not([data-bounty],[data-piece="X"]),
+.piece.square.SparesList-piece[data-color="6"]:not([data-piece="x"],[data-piece="X"],[data-piece="Θ"],[data-piece="-"]) {
+  filter: drop-shadow( 0px 0px 4px rgba(75, 75, 75, 1));
+}
+
+.square.light:not(.piece.square.SparesList-piece.light,[style*="rgba(0, 0, 0, 0.4)"],[data-check],[data-premove],[data-fogged],[data-highlight="0"],[data-highlight="1"],[data-highlight="2"],[data-highlight="3"]) {
+  background-image: radial-gradient(circle, rgb(28, 28, 28),rgb(23, 23, 23),rgb(13, 13, 13));
+}
+
+.square.dark:not([style*="rgba(0, 0, 0, 0.4)"],[data-check],[data-premove],[data-fogged],[data-highlight="0"],[data-highlight="1"],[data-highlight="2"],[data-highlight="3"]) {
+  background-image: radial-gradient(circle, rgb(23, 23, 23),rgb(18, 18, 18),rgb(12, 12, 12));
+}
+
+.square.light[data-highlight="0"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(115, 40, 40), rgb(85, 30, 30),rgb(50, 10, 10));
+}
+
+.square.dark[data-highlight="0"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(135, 40, 40), rgb(100, 40, 40),rgb(65, 20, 20));
+}
+
+.square.light[data-highlight="1"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(40, 80, 115), rgb(30, 60, 100),rgb(10, 40, 80));
+}
+
+.square.dark[data-highlight="1"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(40, 90, 130), rgb(30, 70, 110),rgb(10, 50, 100));
+}
+
+.square.light[data-highlight="2"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(100, 75, 20), rgb(90, 60, 15),rgb(80, 50, 5));
+}
+
+.square.dark[data-highlight="2"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(120, 95, 25), rgb(110, 80, 15),rgb(100, 70, 10));
+}
+
+.square.light[data-highlight="3"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(25, 100, 45), rgb(15, 80, 35),rgb(0, 60, 25));
+}
+
+.square.dark[data-highlight="3"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(25, 110, 65), rgb(15, 90, 55),rgb(5, 70, 35));
+}
+
+.square.light[data-highlight="4"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(150, 150, 150), rgb(120, 120, 120),rgb(100, 100, 100));
+}
+
+.square.dark[data-highlight="4"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(170, 170, 170), rgb(140, 140, 140),rgb(120, 120, 120));
+}
+
+.square.light[data-highlight="5"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(200, 200, 200), rgb(170, 170, 170),rgb(150, 150, 150));
+}
+
+.square.dark[data-highlight="5"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(230, 230, 230), rgb(200, 200, 200),rgb(150, 150, 150));
+}
+
+.square.light[data-highlight="6"]:not(.piece.square.SparesList-piece.light,[data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(80, 80, 80), rgb(60, 60, 60),rgb(40, 40, 40));
+}
+
+.square.dark[data-highlight="6"]:not([data-check],[data-premove]) {
+  background-image: radial-gradient(circle, rgb(90, 90, 90), rgb(70, 70, 70),rgb(50, 50, 50));
+}
+
+.square.light[data-premove] {
+  background-image: radial-gradient(circle, rgb(90, 110, 210), rgb(80, 90, 190),rgb(70, 70, 170));
+}
+
+.square.dark[data-premove] {
+  background-image: radial-gradient(circle, rgb(130, 140, 240), rgb(110, 110, 210),rgb(90, 80, 180));
+}
+
+.square.light[data-check] {
+  background-image: radial-gradient(circle, rgb(255, 40, 40), rgb(200, 40, 40),rgb(50, 20, 20));
+  box-shadow: inset 0 0 20px 0px rgba(10, 10, 10, 1), 0 0 20px 0px rgba(10, 10, 10, 1);
+}
+
+.square.dark[data-check] {
+  background-image: radial-gradient(circle, rgb(255, 40, 40), rgb(200, 40, 40),rgb(50, 20, 20));
+  box-shadow: inset 0 0 20px 0px rgba(10, 10, 10, 1), 0 0 20px 0px rgba(10, 10, 10, 1);
+}
+
+.square.light[style*="rgba(0, 0, 0, 0.4)"] {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+
+.square.dark[style*="rgba(0, 0, 0, 0.4)"] {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+
+.square.light[data-fogged] {
+  box-shadow: inset 0 0 20px 0px rgba(10, 10, 10, 1), 0 0 20px 0px rgba(10, 10, 10, 1);
+}
+
+.square.dark[data-fogged] {
+  box-shadow: inset 0 0 20px 0px rgba(10, 10, 10, 1), 0 0 20px 0px rgba(10, 10, 10, 1);
+}
+
+.TheBoard-bankSquares {
+  background-image: radial-gradient(circle, rgb(28, 28, 28),rgb(23, 23, 23),rgb(13, 13, 13));
+}
+
+/* .piece.BasePiece-component[data-illegal][data-color="1"]::before {
+  background-image: url("")
+} */
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface {
+  box-shadow: inset 0 0 0px 1.5px rgba(255, 255, 255, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.queue-filters-icon-button.icon-font-chess.four-ffa.icon-font-primary) {
+  box-shadow: inset 0 0 0px 1.5px rgba(191, 59, 68, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.queue-filters-icon-button.icon-font-chess.four-teams.icon-font-primary) {
+  box-shadow: inset 0 0 0px 1.5px rgba(65, 132, 191, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.queue-filters-icon-button.icon-font-chess.stats-arrow-up.icon-font-primary) {
+  box-shadow: inset 0 0 0px 1.5px rgba(191, 148, 38, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.queue-filters-icon-button.icon-font-chess.stats-x.icon-font-primary) {
+  box-shadow: inset 0 0 0px 1.5px rgba(78, 145, 97, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.queue-filters-icon-button.icon-font-chess.arena.icon-font-primary) {
+  box-shadow: inset 0 0 0px 1.5px rgba(90, 110, 210, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.flair-component.flair-live) {
+  box-shadow: inset 0 0 0px 1.5px rgba(191, 59, 68, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.flair-component.flair-blitz) {
+  box-shadow: inset 0 0 0px 1.5px rgba(65, 132, 191, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.flair-component.flair-bullet) {
+  box-shadow: inset 0 0 0px 1.5px rgba(191, 148, 38, 1);
+}
+
+.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button-surface:has(.queue-filters-icon-button.icon-font-chess.pulse.icon-font-primary) {
+  box-shadow: inset 0 0 0px 1.5px rgba(78, 145, 97, 1);
+}
+
+button.ui_v5-button-component.ui_v5-button-basic-dark.ui_v5-button-x-small.toggle-button-toggle-btn.toggle-button-selected-button {
+  border-color: rgb(135,193,232);
+}
+
+.game-details-setup {
+  color: rgb(135,193,232);
+  border-color: rgb(135,193,232);
+}
+
+.ui_v5-button-component.ui_v5-button-primary.ui_v5-button-x-small.queue-btn, .ui_v5-button-component.ui_v5-button-primary.ui_v5-button-x-small {
+  background-color: rgb(135,193,232);
+  box-shadow: inset 0 -3px 0px 0px rgb(100,150,180);
+}
+
+.queue-icon.icon-font-chess.users-plus.icon-font-action, .game-details-iconHelp.icon-font-chess.circle-question.icon-font-neutral, .game-details-iconHelp.icon-font-chess.chess-move.icon-font-neutral {
+  color: rgb(135,193,232);
+}
+
+.ui_v5-button-component.ui_v5-button-primary.ui_v5-button-x-small.queue-btn:hover, .ui_v5-button-component.ui_v5-button-primary.ui_v5-button-x-small:hover {
+  background-color: rgb(170,230,255);
+  box-shadow: inset 0 -1.5px 0px 0px rgb(135,193,232);
+}
+
+.queue-icon.icon-font-chess.users-plus.icon-font-action:hover {
+  color: rgb(170,230,255);
+}
+
+.ui_v5-button-component.ui_v5-button-primary.ui_v5-button-large.panel-play-play-button {
+  background-color: rgb(135,193,232);
+  box-shadow: inset 0 -7.5px 0px 0px rgb(100,150,180);
+}
+
+.ui_v5-button-component.ui_v5-button-primary.ui_v5-button-large.panel-play-play-button:hover {
+  background-color: rgb(170,230,255);
+  box-shadow: inset 0 -5px 0px 0px rgb(135,193,232);
+}
+
+.ui_v5-button-component.ui_v5-button-primary.ui_v5-button-small {
+  background-color: rgb(135,193,232);
+  box-shadow: inset 0 -4px 0px 0px rgb(100,150,180);
+}
+
+.ui_v5-button-component.ui_v5-button-primary.ui_v5-button-small:hover {
+  background-color: rgb(170,230,255);
+  box-shadow: inset 0 -2.5px 0px 0px rgb(135,193,232);
+}
