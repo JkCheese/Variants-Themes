@@ -11,6 +11,6 @@ The last update features splitting of the Dark Mode style and the Board Glow sty
 A new 4PC Theme is being developed at the moment, which includes cool button/text animations and multiple colors! Hopefully you'll all agree with me when I say it looks incredibly cool. I'm also working on bugfixing and restructuring the current styles so they are more concise, organized, and easier to understand and modify.
 
 ## Contact
-If you want to contribute to this project, request help, or have any questions/concerns for me, you can message *ratingcrisis* on Discord or message me through my <u>Chess.com account</u>, JkCheeseChess.
+If you want to contribute to this project, request help, or have any questions/concerns for me, you can message *ratingcrisis* on Discord or message me through my <u>Chess.com account</u>, [JkCheeseChess](https://www.chess.com/member/JkCheeseChess).
 
 Thanks for checking this project out!
