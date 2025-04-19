@@ -248,6 +248,7 @@
     border-bottom-width: 5px !important;
     border-left-width: 5px !important;
     border-right-width: 5px !important;
+    border-color: rgb(50, 50, 50);
     background-image: radial-gradient(circle, rgb(28, 28, 28),rgb(23, 23, 23),rgb(13, 13, 13)) !important;
   }
   
@@ -256,6 +257,7 @@
     border-bottom-width: 5px !important;
     border-left-width: 5px !important;
     border-right-width: 5px !important;
+    border-color: rgb(50, 50, 50);
     background-image: radial-gradient(circle, rgb(23, 23, 23),rgb(18, 18, 18),rgb(12, 12, 12)) !important;
   }
   
