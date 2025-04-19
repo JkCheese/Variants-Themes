@@ -1,19 +1,29 @@
 .ui_modal-body.ui_modal-rounded-lg.ui_modal-light, .user-popup-component, .action-buttons-user-actions-component, .user-popup-separator, .invitations-request-container {
-  color: rgb(200, 200, 200);
-  background-color: rgb(30, 30, 30);
-}
-
-.settings-modal-setting span, .settings-modal-setting, .custom-rules-modal-content, .custom-rules-modal-templates, .game-details-type, .game-details-rules div[style="display: flex;"], .standings-standing {
-  color: rgb(200, 200, 200);
-}
-
-.settings-modal-cat-item, .ui_v5-button-component.ui_v5-button-basic-light.ui_v5-button-x-small, .ui_v5-select-component.ui_v5-select-light, .custom-rules-modal-custom-rule-item, .custom-rules-modal-preset-item, .my-templates-template {
-  color: rgb(200, 200, 200);
-  background-color: rgb(50, 50, 50) !important;
-  border-color: rgb(50, 50, 50);
-}
-
-.settings-modal-cat-item:hover, .ui_v5-button-component.ui_v5-button-basic-light.ui_v5-button-x-small:hover, .ui_v5-select-component.ui_v5-select-light:hover, .custom-rules-modal-custom-rule-item:hover, .custom-rules-modal-preset-item:hover, .my-templates-template:hover {
-  color: rgb(200, 200, 200);
-  background-color: rgb(75, 75, 75) !important;
-}
+    color: rgb(200, 200, 200);
+    background-color: rgb(30, 30, 30);
+  }
+  
+  .news-item {
+    color: rgb(200, 200, 200);
+    background-color: rgb(40, 40, 40);
+  }
+  
+  .news-item:not(.news-item.news-selected):hover {
+    color: rgb(200, 200, 200);
+    background-color: rgb(65, 65, 65);
+  }
+  
+  .settings-modal-setting span, .settings-modal-setting, .custom-rules-modal-content, .custom-rules-modal-templates, .game-details-type, .game-details-rules div[style="display: flex;"], .standings-standing, .news-item-footer span {
+    color: rgb(200, 200, 200);
+  }
+  
+  .settings-modal-cat-item, .ui_v5-button-component.ui_v5-button-basic-light.ui_v5-button-x-small, .ui_v5-select-component.ui_v5-select-light, .custom-rules-modal-custom-rule-item, .custom-rules-modal-preset-item, .my-templates-template, .tournament-timer.tournament-light, .settings-modal-flexrow.settings-modal-piece-themes label[for], .ui_v5-input-component.ui_v5-input-light, .news-item.news-published, .ui_v5-textarea-component.ui_v5-textarea-light.ui_v5-textarea-autosize {
+    color: rgb(200, 200, 200);
+    background-color: rgb(50, 50, 50) !important;
+    border-color: rgb(50, 50, 50);
+  }
+  
+  .settings-modal-cat-item:hover, .ui_v5-button-component.ui_v5-button-basic-light.ui_v5-button-x-small:hover, .ui_v5-select-component.ui_v5-select-light:hover, .custom-rules-modal-custom-rule-item:hover, .custom-rules-modal-preset-item:hover, .my-templates-template:hover, .settings-modal-flexrow.settings-modal-piece-themes label[for]:hover, .news-item.news-published:not(.news-item.news-selected):hover {
+    color: rgb(200, 200, 200);
+    background-color: rgb(75, 75, 75) !important;
+  }
