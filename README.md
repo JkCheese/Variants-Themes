@@ -5,7 +5,7 @@ Welcome to the home for my fun project, designed to spice up the aesthetics and 
 Install the [Stylus browser extension](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en&pli=1). If requested I'll create a simple tutorial to use it, but you'll likely find yourself one online. In my opinion, it is easy when you have multiple different styles with different names so you can keep track of the various design changes (for example, perhaps you want to separate Dark Mode from the Blue Theme).
 
 ## Latest Update
-The latest update has added Dark Mode compatibility and new Gothic style pieces (only the default 4p colors and no compatibility for White/Black variants yet).
+The latest update has added custom color Gothic compatibility, but you'll have to install a Tampermonkey script. Using the color pickers will change the colors of the pieces now. However, zombies are still incompatible and special style pieces (for example, the sailboat in Chaturaji) are only semi-compatible (for example, replaced with the Gothic rook).
 
 ## Future Updates
 A new 4pc Theme is being developed at the moment, which includes cool button/text animations and multiple colors! Hopefully you'll all agree with me when I say it looks incredibly cool. I'm also working on bugfixing and restructuring the current styles so they are more concise, organized, and easier to understand and modify. The Gothic pieces will be updated soon with compatibility for WB variants.
