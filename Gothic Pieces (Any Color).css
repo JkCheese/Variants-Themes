@@ -1,0 +1,1003 @@
+/* Red pieces */
+
+.piece.BasePiece-component[data-color="0"], .piece.square.SparesList-piece[data-color="0"]:not([data-piece="x"], [data-piece="X"], [data-piece="-"], [data-piece="Θ"]) {
+  filter: hue-rotate(var(--player0-hue, 0deg)) saturate(var(--player0-sat)) brightness(1.5);
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="A"], .piece.square.SparesList-piece[data-color="0"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="B"], .piece.square.SparesList-piece[data-color="0"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="C"], .piece.square.SparesList-piece[data-color="0"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="D"], .piece.square.SparesList-piece[data-color="0"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dame.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="E"], .piece.square.SparesList-piece[data-color="0"][data-piece="E"], .piece.BasePiece-component[data-color="0"][data-piece="seirawanElephant"], .piece.square.SparesList-piece[data-color="0"][data-piece="seirawanElephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="F"], .piece.square.SparesList-piece[data-color="0"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="G"], .piece.square.SparesList-piece[data-color="0"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="H"], .piece.square.SparesList-piece[data-color="0"][data-piece="H"], .piece.BasePiece-component[data-color="0"][data-piece="hawk"], .piece.square.SparesList-piece[data-color="0"][data-piece="hawk"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="I"], .piece.square.SparesList-piece[data-color="0"][data-piece="I"], .piece.BasePiece-component[data-color="0"][data-piece="elephant"], .piece.square.SparesList-piece[data-color="0"][data-piece="elephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="J"], .piece.square.SparesList-piece[data-color="0"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="K"], .piece.square.SparesList-piece[data-color="0"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/king.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="L"], .piece.square.SparesList-piece[data-color="0"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="M"], .piece.square.SparesList-piece[data-color="0"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/general.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="N"], .piece.square.SparesList-piece[data-color="0"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="O"], .piece.square.SparesList-piece[data-color="0"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="P"], .piece.square.SparesList-piece[data-color="0"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="Q"], .piece.square.SparesList-piece[data-color="0"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/queen.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="R"], .piece.square.SparesList-piece[data-color="0"][data-piece="R"], .piece.BasePiece-component[data-color="0"][data-piece="sailboat"], .piece.square.SparesList-piece[data-color="0"][data-piece="sailboat"], .piece.BasePiece-component[data-color="0"][data-piece="chariot"], .piece.square.SparesList-piece[data-color="0"][data-piece="chariot"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/rook.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="S"], .piece.square.SparesList-piece[data-color="0"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="T"], .piece.square.SparesList-piece[data-color="0"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="U"], .piece.square.SparesList-piece[data-color="0"][data-piece="U"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="V"], .piece.square.SparesList-piece[data-color="0"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="W"], .piece.square.SparesList-piece[data-color="0"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="Y"], .piece.square.SparesList-piece[data-color="0"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="Z"], .piece.square.SparesList-piece[data-color="0"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="α"], .piece.square.SparesList-piece[data-color="0"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="β"], .piece.square.SparesList-piece[data-color="0"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="γ"], .piece.square.SparesList-piece[data-color="0"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/stone.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="δ"], .piece.square.SparesList-piece[data-color="0"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="0"][data-piece="Δ"], .piece.square.SparesList-piece[data-color="0"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-bishop.png");
+}
+
+/* Blue pieces */
+
+.piece.BasePiece-component[data-color="1"], .piece.square.SparesList-piece[data-color="1"]:not([data-piece="x"], [data-piece="X"], [data-piece="-"], [data-piece="Θ"]) {
+  filter: hue-rotate(var(--player1-hue, 0deg)) saturate(var(--player1-sat)) brightness(1.5);
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="A"], .piece.square.SparesList-piece[data-color="1"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="B"], .piece.square.SparesList-piece[data-color="1"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="C"], .piece.square.SparesList-piece[data-color="1"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="D"], .piece.square.SparesList-piece[data-color="1"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dame.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="E"], .piece.square.SparesList-piece[data-color="1"][data-piece="E"], .piece.BasePiece-component[data-color="1"][data-piece="seirawanElephant"], .piece.square.SparesList-piece[data-color="1"][data-piece="seirawanElephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="F"], .piece.square.SparesList-piece[data-color="1"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="G"], .piece.square.SparesList-piece[data-color="1"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="H"], .piece.square.SparesList-piece[data-color="1"][data-piece="H"], .piece.BasePiece-component[data-color="1"][data-piece="hawk"], .piece.square.SparesList-piece[data-color="1"][data-piece="hawk"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="I"], .piece.square.SparesList-piece[data-color="1"][data-piece="I"], .piece.BasePiece-component[data-color="1"][data-piece="elephant"], .piece.square.SparesList-piece[data-color="1"][data-piece="elephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="J"], .piece.square.SparesList-piece[data-color="1"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="K"], .piece.square.SparesList-piece[data-color="1"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/king.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="L"], .piece.square.SparesList-piece[data-color="1"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="M"], .piece.square.SparesList-piece[data-color="1"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/general.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="N"], .piece.square.SparesList-piece[data-color="1"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="O"], .piece.square.SparesList-piece[data-color="1"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="P"], .piece.square.SparesList-piece[data-color="1"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="Q"], .piece.square.SparesList-piece[data-color="1"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/queen.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="R"], .piece.square.SparesList-piece[data-color="1"][data-piece="R"], .piece.BasePiece-component[data-color="1"][data-piece="sailboat"], .piece.square.SparesList-piece[data-color="1"][data-piece="sailboat"], .piece.BasePiece-component[data-color="1"][data-piece="chariot"], .piece.square.SparesList-piece[data-color="1"][data-piece="chariot"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/rook.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="S"], .piece.square.SparesList-piece[data-color="1"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="T"], .piece.square.SparesList-piece[data-color="1"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="U"], .piece.square.SparesList-piece[data-color="1"][data-piece="U"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="V"], .piece.square.SparesList-piece[data-color="1"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="W"], .piece.square.SparesList-piece[data-color="1"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="Y"], .piece.square.SparesList-piece[data-color="1"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="Z"], .piece.square.SparesList-piece[data-color="1"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="α"], .piece.square.SparesList-piece[data-color="1"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="β"], .piece.square.SparesList-piece[data-color="1"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="γ"], .piece.square.SparesList-piece[data-color="1"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/stone.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="δ"], .piece.square.SparesList-piece[data-color="1"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="1"][data-piece="Δ"], .piece.square.SparesList-piece[data-color="1"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-bishop.png");
+}
+
+/* Yellow pieces */
+
+.piece.BasePiece-component[data-color="2"], .piece.square.SparesList-piece[data-color="2"]:not([data-piece="x"], [data-piece="X"], [data-piece="-"], [data-piece="Θ"]) {
+  filter: hue-rotate(var(--player2-hue, 0deg)) saturate(var(--player2-sat)) brightness(1.5);
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="A"], .piece.square.SparesList-piece[data-color="2"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="B"], .piece.square.SparesList-piece[data-color="2"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="C"], .piece.square.SparesList-piece[data-color="2"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="D"], .piece.square.SparesList-piece[data-color="2"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dame.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="E"], .piece.square.SparesList-piece[data-color="2"][data-piece="E"], .piece.BasePiece-component[data-color="2"][data-piece="seirawanElephant"], .piece.square.SparesList-piece[data-color="2"][data-piece="seirawanElephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="F"], .piece.square.SparesList-piece[data-color="2"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="G"], .piece.square.SparesList-piece[data-color="2"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="H"], .piece.square.SparesList-piece[data-color="2"][data-piece="H"], .piece.BasePiece-component[data-color="2"][data-piece="hawk"], .piece.square.SparesList-piece[data-color="2"][data-piece="hawk"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="I"], .piece.square.SparesList-piece[data-color="2"][data-piece="I"], .piece.BasePiece-component[data-color="2"][data-piece="elephant"], .piece.square.SparesList-piece[data-color="2"][data-piece="elephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="J"], .piece.square.SparesList-piece[data-color="2"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="K"], .piece.square.SparesList-piece[data-color="2"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/king.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="L"], .piece.square.SparesList-piece[data-color="2"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="M"], .piece.square.SparesList-piece[data-color="2"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/general.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="N"], .piece.square.SparesList-piece[data-color="2"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="O"], .piece.square.SparesList-piece[data-color="2"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="P"], .piece.square.SparesList-piece[data-color="2"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="Q"], .piece.square.SparesList-piece[data-color="2"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/queen.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="R"], .piece.square.SparesList-piece[data-color="2"][data-piece="R"], .piece.BasePiece-component[data-color="2"][data-piece="sailboat"], .piece.square.SparesList-piece[data-color="2"][data-piece="sailboat"], .piece.BasePiece-component[data-color="2"][data-piece="chariot"], .piece.square.SparesList-piece[data-color="2"][data-piece="chariot"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/rook.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="S"], .piece.square.SparesList-piece[data-color="2"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="T"], .piece.square.SparesList-piece[data-color="2"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="U"], .piece.square.SparesList-piece[data-color="2"][data-piece="U"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="V"], .piece.square.SparesList-piece[data-color="2"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="W"], .piece.square.SparesList-piece[data-color="2"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="Y"], .piece.square.SparesList-piece[data-color="2"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="Z"], .piece.square.SparesList-piece[data-color="2"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="α"], .piece.square.SparesList-piece[data-color="2"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="β"], .piece.square.SparesList-piece[data-color="2"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="γ"], .piece.square.SparesList-piece[data-color="2"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/stone.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="δ"], .piece.square.SparesList-piece[data-color="2"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="2"][data-piece="Δ"], .piece.square.SparesList-piece[data-color="2"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-bishop.png");
+}
+
+/* Green pieces */
+
+.piece.BasePiece-component[data-color="3"], .piece.square.SparesList-piece[data-color="3"]:not([data-piece="x"], [data-piece="X"], [data-piece="-"], [data-piece="Θ"]) {
+  filter: hue-rotate(var(--player3-hue, 0deg)) saturate(var(--player3-sat)) brightness(1.5);
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="A"], .piece.square.SparesList-piece[data-color="3"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="B"], .piece.square.SparesList-piece[data-color="3"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="C"], .piece.square.SparesList-piece[data-color="3"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="D"], .piece.square.SparesList-piece[data-color="3"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dame.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="E"], .piece.square.SparesList-piece[data-color="3"][data-piece="E"], .piece.BasePiece-component[data-color="3"][data-piece="seirawanElephant"], .piece.square.SparesList-piece[data-color="3"][data-piece="seirawanElephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="F"], .piece.square.SparesList-piece[data-color="3"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="G"], .piece.square.SparesList-piece[data-color="3"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="H"], .piece.square.SparesList-piece[data-color="3"][data-piece="H"], .piece.BasePiece-component[data-color="3"][data-piece="hawk"], .piece.square.SparesList-piece[data-color="3"][data-piece="hawk"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="I"], .piece.square.SparesList-piece[data-color="3"][data-piece="I"], .piece.BasePiece-component[data-color="3"][data-piece="elephant"], .piece.square.SparesList-piece[data-color="3"][data-piece="elephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="J"], .piece.square.SparesList-piece[data-color="3"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="K"], .piece.square.SparesList-piece[data-color="3"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/king.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="L"], .piece.square.SparesList-piece[data-color="3"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="M"], .piece.square.SparesList-piece[data-color="3"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/general.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="N"], .piece.square.SparesList-piece[data-color="3"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="O"], .piece.square.SparesList-piece[data-color="3"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="P"], .piece.square.SparesList-piece[data-color="3"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="Q"], .piece.square.SparesList-piece[data-color="3"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/queen.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="R"], .piece.square.SparesList-piece[data-color="3"][data-piece="R"], .piece.BasePiece-component[data-color="3"][data-piece="sailboat"], .piece.square.SparesList-piece[data-color="3"][data-piece="sailboat"], .piece.BasePiece-component[data-color="3"][data-piece="chariot"], .piece.square.SparesList-piece[data-color="3"][data-piece="chariot"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/rook.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="S"], .piece.square.SparesList-piece[data-color="3"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="T"], .piece.square.SparesList-piece[data-color="3"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="U"], .piece.square.SparesList-piece[data-color="3"][data-piece="U"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="V"], .piece.square.SparesList-piece[data-color="3"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="W"], .piece.square.SparesList-piece[data-color="3"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="Y"], .piece.square.SparesList-piece[data-color="3"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="Z"], .piece.square.SparesList-piece[data-color="3"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="α"], .piece.square.SparesList-piece[data-color="3"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="β"], .piece.square.SparesList-piece[data-color="3"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="γ"], .piece.square.SparesList-piece[data-color="3"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/stone.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="δ"], .piece.square.SparesList-piece[data-color="3"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/94a086f302e6166a408865697c222bbfb28e00e2/Red/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="3"][data-piece="Δ"], .piece.square.SparesList-piece[data-color="3"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Red/dragon-bishop.png");
+}
+
+/* White pieces */
+
+.piece.BasePiece-component[data-color="5"], .piece.square.SparesList-piece[data-color="5"]:not([data-piece="x"], [data-piece="X"], [data-piece="-"], [data-piece="Θ"]) {
+  filter: hue-rotate(var(--player0-hue, 0deg)) saturate(var(--player0-sat)) brightness(2);
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="A"], .piece.square.SparesList-piece[data-color="5"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="B"], .piece.square.SparesList-piece[data-color="5"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="C"], .piece.square.SparesList-piece[data-color="5"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/camel.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="D"], .piece.square.SparesList-piece[data-color="5"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dame.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="E"], .piece.square.SparesList-piece[data-color="5"][data-piece="E"], .piece.BasePiece-component[data-color="5"][data-piece="seirawanElephant"], .piece.square.SparesList-piece[data-color="5"][data-piece="seirawanElephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="F"], .piece.square.SparesList-piece[data-color="5"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="G"], .piece.square.SparesList-piece[data-color="5"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="H"], .piece.square.SparesList-piece[data-color="5"][data-piece="H"], .piece.BasePiece-component[data-color="5"][data-piece="hawk"], .piece.square.SparesList-piece[data-color="5"][data-piece="hawk"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="I"], .piece.square.SparesList-piece[data-color="5"][data-piece="I"], .piece.BasePiece-component[data-color="5"][data-piece="elephant"], .piece.square.SparesList-piece[data-color="5"][data-piece="elephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="J"], .piece.square.SparesList-piece[data-color="5"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="K"], .piece.square.SparesList-piece[data-color="5"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/king.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="L"], .piece.square.SparesList-piece[data-color="5"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="M"], .piece.square.SparesList-piece[data-color="5"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/general.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="N"], .piece.square.SparesList-piece[data-color="5"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/knight.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="O"], .piece.square.SparesList-piece[data-color="5"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="P"], .piece.square.SparesList-piece[data-color="5"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="Q"], .piece.square.SparesList-piece[data-color="5"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/queen.psd.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="R"], .piece.square.SparesList-piece[data-color="5"][data-piece="R"], .piece.BasePiece-component[data-color="5"][data-piece="sailboat"], .piece.square.SparesList-piece[data-color="5"][data-piece="sailboat"], .piece.BasePiece-component[data-color="5"][data-piece="chariot"], .piece.square.SparesList-piece[data-color="5"][data-piece="chariot"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/rook.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="S"], .piece.square.SparesList-piece[data-color="5"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="T"], .piece.square.SparesList-piece[data-color="5"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="U"], .piece.square.SparesList-piece[data-color="5"][data-piece="U"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="V"], .piece.square.SparesList-piece[data-color="5"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="W"], .piece.square.SparesList-piece[data-color="5"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="Y"], .piece.square.SparesList-piece[data-color="5"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="Z"], .piece.square.SparesList-piece[data-color="5"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="α"], .piece.square.SparesList-piece[data-color="5"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="β"], .piece.square.SparesList-piece[data-color="5"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="γ"], .piece.square.SparesList-piece[data-color="5"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/stone.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="δ"], .piece.square.SparesList-piece[data-color="5"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="5"][data-piece="Δ"], .piece.square.SparesList-piece[data-color="5"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dragon-bishop.png");
+}
+
+/* Black pieces */
+
+.piece.BasePiece-component[data-color="6"], .piece.square.SparesList-piece[data-color="6"]:not([data-piece="x"], [data-piece="X"], [data-piece="-"], [data-piece="Θ"]) {
+  filter: hue-rotate(var(--player0-hue, 0deg)) saturate(var(--player0-sat)) brightness(0.5);
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="A"], .piece.square.SparesList-piece[data-color="6"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="B"], .piece.square.SparesList-piece[data-color="6"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="C"], .piece.square.SparesList-piece[data-color="6"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/camel.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="D"], .piece.square.SparesList-piece[data-color="6"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dame.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="E"], .piece.square.SparesList-piece[data-color="6"][data-piece="E"], .piece.BasePiece-component[data-color="6"][data-piece="seirawanElephant"], .piece.square.SparesList-piece[data-color="6"][data-piece="seirawanElephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="F"], .piece.square.SparesList-piece[data-color="6"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="G"], .piece.square.SparesList-piece[data-color="6"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="H"], .piece.square.SparesList-piece[data-color="6"][data-piece="H"], .piece.BasePiece-component[data-color="6"][data-piece="hawk"], .piece.square.SparesList-piece[data-color="0"][data-piece="hawk"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="I"], .piece.square.SparesList-piece[data-color="6"][data-piece="I"], .piece.BasePiece-component[data-color="6"][data-piece="elephant"], .piece.square.SparesList-piece[data-color="0"][data-piece="elephant"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="J"], .piece.square.SparesList-piece[data-color="6"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="K"], .piece.square.SparesList-piece[data-color="6"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/king.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="L"], .piece.square.SparesList-piece[data-color="6"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="M"], .piece.square.SparesList-piece[data-color="6"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/general.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="N"], .piece.square.SparesList-piece[data-color="6"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/knight.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="O"], .piece.square.SparesList-piece[data-color="6"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="P"], .piece.square.SparesList-piece[data-color="6"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="Q"], .piece.square.SparesList-piece[data-color="6"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/queen.psd.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="R"], .piece.square.SparesList-piece[data-color="6"][data-piece="R"], .piece.BasePiece-component[data-color="6"][data-piece="sailboat"], .piece.square.SparesList-piece[data-color="6"][data-piece="sailboat"], .piece.BasePiece-component[data-color="6"][data-piece="chariot"], .piece.square.SparesList-piece[data-color="0"][data-piece="chariot"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/rook.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="S"], .piece.square.SparesList-piece[data-color="6"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="T"], .piece.square.SparesList-piece[data-color="6"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="U"], .piece.square.SparesList-piece[data-color="6"][data-piece="U"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="V"], .piece.square.SparesList-piece[data-color="6"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="W"], .piece.square.SparesList-piece[data-color="6"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="Y"], .piece.square.SparesList-piece[data-color="6"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="Z"], .piece.square.SparesList-piece[data-color="6"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="α"], .piece.square.SparesList-piece[data-color="6"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="β"], .piece.square.SparesList-piece[data-color="6"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="γ"], .piece.square.SparesList-piece[data-color="6"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/stone.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="δ"], .piece.square.SparesList-piece[data-color="6"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="6"][data-piece="Δ"], .piece.square.SparesList-piece[data-color="6"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dragon-bishop.png");
+}
+
+/* Dead pieces */
+
+.piece.BasePiece-component[data-color="4"][data-piece="A"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="A"], .piece.BasePiece-component[data-color="7"][data-piece="A"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="A"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="B"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="B"], .piece.BasePiece-component[data-color="7"][data-piece="B"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="B"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="C"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="C"], .piece.BasePiece-component[data-color="7"][data-piece="C"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="C"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/camel.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="D"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="D"], .piece.BasePiece-component[data-color="7"][data-piece="D"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="D"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dame.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="E"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="E"], .piece.BasePiece-component[data-color="7"][data-piece="E"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="E"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="F"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="F"], .piece.BasePiece-component[data-color="7"][data-piece="F"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="F"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="G"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="G"], .piece.BasePiece-component[data-color="7"][data-piece="G"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="G"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="H"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="H"], .piece.BasePiece-component[data-color="7"][data-piece="H"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="H"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="I"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="I"], .piece.BasePiece-component[data-color="7"][data-piece="I"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="I"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alfil.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="J"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="J"], .piece.BasePiece-component[data-color="7"][data-piece="J"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="J"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="K"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="K"], .piece.BasePiece-component[data-color="7"][data-piece="K"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="K"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/king.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="L"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="L"], .piece.BasePiece-component[data-color="7"][data-piece="L"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="L"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="M"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="M"], .piece.BasePiece-component[data-color="7"][data-piece="M"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="M"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/general.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="N"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="N"], .piece.BasePiece-component[data-color="7"][data-piece="N"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="N"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/knight.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="O"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="O"], .piece.BasePiece-component[data-color="7"][data-piece="O"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="O"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="P"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="P"], .piece.BasePiece-component[data-color="7"][data-piece="P"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="P"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Q"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="Q"], .piece.BasePiece-component[data-color="7"][data-piece="Q"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="Q"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/queen.psd.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="R"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="R"], .piece.BasePiece-component[data-color="7"][data-piece="R"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="R"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/rook.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="S"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="S"], .piece.BasePiece-component[data-color="7"][data-piece="S"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="S"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="T"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="T"], .piece.BasePiece-component[data-color="7"][data-piece="T"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="T"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="U"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="U"], .piece.BasePiece-component[data-color="7"][data-piece="U"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="U"]{
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="V"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="V"], .piece.BasePiece-component[data-color="7"][data-piece="V"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="V"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="W"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="W"], .piece.BasePiece-component[data-color="7"][data-piece="W"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="W"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Y"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="Y"], .piece.BasePiece-component[data-color="7"][data-piece="Y"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="Y"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Z"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="Z"], .piece.BasePiece-component[data-color="7"][data-piece="Z"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="Z"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="α"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="α"], .piece.BasePiece-component[data-color="7"][data-piece="α"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="α"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="β"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="β"], .piece.BasePiece-component[data-color="7"][data-piece="β"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="β"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="γ"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="γ"], .piece.BasePiece-component[data-color="7"][data-piece="γ"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="γ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/stone.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="δ"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="δ"], .piece.BasePiece-component[data-color="7"][data-piece="δ"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Δ"]:not([data-stone]), .piece.square.SparesList-piece[data-color="4"][data-piece="Δ"], .piece.BasePiece-component[data-color="7"][data-piece="Δ"]:not([data-stone]), .piece.square.SparesList-piece[data-color="7"][data-piece="Δ"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/Dead/dragon-bishop.png");
+}
+
+/* Wall & DeadWall */
+
+/* .piece.BasePiece-component[data-color="4"][data-piece="X"], .piece.square.SparesList-piece[data-color="4"][data-piece="X"] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/wall.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="A"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/amazon.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="B"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/bishop.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="C"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/camel.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="D"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/dame.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="E"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/elephant.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="F"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/ferz.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="G"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/grasshopper.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="H"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/hawk.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="I"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/alfil.psd.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="J"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/alfil-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="K"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/king.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="L"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/camel-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="M"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/general.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="N"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/knight.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="O"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/knight-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="P"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/pawn.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Q"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/queen.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="R"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/rook.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="S"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/dabbaba.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="T"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/dabbaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="U"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/dragon-horse.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="V"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/wildebeest.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="W"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/wazir.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Y"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/alibaba.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Z"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/alibaba-rider.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="α"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/berolina.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="β"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/soldier.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="γ"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/stone.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="δ"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/sergeant.png");
+}
+
+.piece.BasePiece-component[data-color="4"][data-piece="Δ"][data-stone] {
+  background-image: url("https://bitbucket.org/vasyavasyalin/fourplayericons/raw/25b2f83481ed319f835091357bd450beadbe7237/DeadWall/dragon-bishop.png");
+} */
