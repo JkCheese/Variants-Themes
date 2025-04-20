@@ -8,7 +8,7 @@ Install the [Stylus browser extension](https://chromewebstore.google.com/detail/
 The latest update has added custom color Gothic compatibility, but you'll have to install a Tampermonkey script. Using the color pickers will change the colors of the pieces now. However, zombies are still incompatible and special style pieces (for example, the sailboat in Chaturaji) are only semi-compatible (for example, replaced with the Gothic rook).
 
 ## Future Updates
-A new 4pc Theme is being developed at the moment, which includes cool button/text animations and multiple colors! Hopefully you'll all agree with me when I say it looks incredibly cool. I'm also working on bugfixing and restructuring the current styles so they are more concise, organized, and easier to understand and modify. The Gothic pieces will be updated soon with compatibility for WB variants.
+A new 4pc Theme is being developed at the moment, which includes cool button/text animations and multiple colors! I'm also working on bugfixing and restructuring the current styles so they are more concise, organized, and easier to understand and modify. The Gothic pieces will be updated soon with compatibility for specially styled pieces and zombies.
 
 ## Contact
 If you want to contribute to this project, request help, or have any questions/concerns for me, you can message *ratingcrisis* on Discord or message me through my <u>Chess.com account</u>, [JkCheeseChess](https://www.chess.com/member/JkCheeseChess).
